@@ -5,6 +5,6 @@ The structure of repo would be
 - Topic (Arrays, Tree, DP ... etc)
   - Individual problem
     - Code file(s) (prefered languages c++, java, python) Named as `Solution.cpp` / `Solution.java` / `Solution.py`
-    - Readme.md (Describing the solution)
+    - README.md - Describing the solution (Append solution explanation section to this file)
     
-Will upload question to seek solutions for. Looking forward for participation from you all.
+Will upload questions regularly to seek solutions for. Looking forward for participation from you all.
