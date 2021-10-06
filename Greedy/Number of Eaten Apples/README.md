@@ -62,4 +62,3 @@ while(q.peek() != null){
 	i += Math.min(basket.appleCount, basket.day-i);
 }
 ```
-<br>
