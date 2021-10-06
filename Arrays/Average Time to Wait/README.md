@@ -14,3 +14,23 @@ public double avgTimeToWaiting(int[][] customers) {
   //complete the code        
 }
 ```
+
+## Solution
+
+**Approach**
+1. Keep a track of the current time `time` and total wait time `waitingTime`.
+2. If the time of arrival of the next customer is greater than the current time, fast forward to that time `time = Math.max(cust[0],time)`
+3. Increament the time with the time required to prepare the dish `time = time + cust[1]`
+4. Calculate the total time `customer[i]` had to wait and add it to total time.
+5. Divide by the total no. of customers to get average.
+
+```
+time -> 0
+waiting time -> 0
+for all customers
+    time = max(cust[0], time);            
+    time = time + cust[1];
+    waitingTime = waitingTime + (time - cust[0]);
+    
+Answer -> waitingTime/lenght(customers)
+```
