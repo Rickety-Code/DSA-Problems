@@ -10,6 +10,8 @@ Define the validation algorithm given a 2d matrix depicting the sudoku
 
 Additionally, the application provides a feature where anytime the user can ask for a help to verify if the numbers entered so far have violated any of the sudoku rules or not.
 
+Constraints: `board[i][j] is a digit 1-9 or '.'`
+
 
 ## Code
 ```java
