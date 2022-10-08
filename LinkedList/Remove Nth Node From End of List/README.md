@@ -1,6 +1,8 @@
 ## Problem statement
 Given the head of a linked list, remove the nth node from the end of the list. The solution should return the head of the newly created linked list.
 
+Conditions : `n <= length of linked list`
+
 A Linked list node can be considered to be defined as:
 ```java
 public class ListNode {
