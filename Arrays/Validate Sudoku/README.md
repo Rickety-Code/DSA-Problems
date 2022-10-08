@@ -2,9 +2,9 @@
 A sudoku application generates a sudoku puzzle for user to solve. Once the user puts in the numbers and submits their solution. An algorithm runs to validate if the solution is correct or not.
 
 Rules : 
-- Each row must contain the digits 1-9 without repetition.
-- Each column must contain the digits 1-9 without repetition.
-- Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without repetition.
+- Each row must contain single occurrence of the digits 1-9.
+- Each column must contain single occurrence of the digits 1-9
+- Each of the nine 3 x 3 sub-boxes of the grid must contain single occurrence of the digits 1-9.
 
 Define the validation algorithm given a 2d matrix depicting the sudoku
 
