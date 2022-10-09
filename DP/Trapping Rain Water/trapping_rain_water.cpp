@@ -31,17 +31,3 @@ int maxWater(int arr[], int n)
         water += min(left[i], right[i]) - arr[i];
     return water;
 }
-
-int main()
-{
-    int n;
-    cin >> n;
-
-    int arr[n];
-    for (int i = 0; i < n; i++)
-        cin >> arr[i];
-
-    cout << maxWater(arr, n);
-
-    return 0;
-}
