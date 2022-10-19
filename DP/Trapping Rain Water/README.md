@@ -12,3 +12,4 @@ public int trapRainwater(int[] height) {
 ```
 
 ## Solution
+
